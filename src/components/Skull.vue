@@ -35,7 +35,7 @@ export default
                         this.msg = response.data;
                     })
                     .catch(error => console.log(error))
-            }
+            } 
         },
         created() {
             this.getSkull()
